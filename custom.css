@@ -1,0 +1,133 @@
+body, html{
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    width: 100%;
+    background-color: #f8eeee;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse{
+    width: auto;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #ED462F;
+    border-bottom: solid 4px transparent;
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--secondary);
+    color: var(--secondary);
+}
+
+#slider h1 {
+    font-weight: 900;
+    color: var(--primary);
+}
+
+#slider h4 {
+    font-size: 18px;
+    color: #EB6E80;
+}
+
+#slider h5 {
+    font-size: 18px;
+    color: var(--primary);
+}
+
+#slider h1:hover {
+    color: var(--secondary);
+}
+
+#slider h5:hover {
+    color: var(--secondary);
+}
+
+#slider h4:hover {
+    color: #008F95;
+}
+
+#servicos a.destaque {
+    display: block;
+    background: #f8eeee;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+#servicos a.destaque:hover {
+    background: rgb(221, 241, 247);
+    transform: scale(1.05);
+}
+
+#servicos a.destaque .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#servicos a.destaque .img-container img {
+    max-height: 160px;
+}
+
+#cursos a.link-cursos {
+    padding: 0 15px;
+    background: #caf8fa;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: solid 1px #caf8fa;
+    height:100px;
+    transition: ease-out all 0.2s;
+}
+
+#cursos a.link-cursos:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+#cursos .cursos-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    background: #f1e8ca;
+    border-radius: 5px;
+}
+
+#cursos .cursos-texto .imagem {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    margin-left: -80px;
+    color: var(--primary);
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#cursos .cursos-texto .imagem span {
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    display: block;
+}
+
+#cursos .cursos-texto .imagem span:hover{
+    color:#008F95;
+}
+
+#cursos .cursos-texto .imagem2:hover {
+    color: #008F95;
+}

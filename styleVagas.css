@@ -1,0 +1,33 @@
+#servicos a.destaque {
+    display: block;
+    background: #f8eeee;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+  }
+  
+  #servicos a.destaque:hover {
+    background: rgb(221, 241, 247);
+    transform: scale(1.05);
+  }
+  
+  #servicos a.destaque .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  
+  #servicos a.destaque .img-container img {
+    max-height: 160px;
+  }
+  @media (max-width: 767.98px) {
+    #servicos a.destaque .img-container {
+        height: 120px;
+    }
+
+    #servicos a.destaque .img-container img {
+        max-height: 120px;
+    }}

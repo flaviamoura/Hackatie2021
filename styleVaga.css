@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: #ED462F;
+}
+
+#titulo:hover {
+    color:#008F95;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #ED462F;
+    margin-left:10%;
+}
+
+.cabeca {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 0;
+}
+
+body {
+    background-color: #f8e7b4;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #ED462F;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+.grupo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: #ED462F;
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], input[type="email"], input[type="tel"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #ED462F;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: block;
+}
+
+.grupo input[type="text"] {
+    border: 1px solid #ED462F;
+}
+
+.grupo label {
+    margin-bottom: 0.2em;
+    color: #ED462F;
+    display: block; 
+}
+
+.campo select opcion{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #fff;
+}
+
+.grupo input:focus {
+    background: #fff;
+}
+
+.inputUser2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.campo1{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.campo1 label {
+    margin-bottom: 0.2em;
+    color: #ED462F;
+    display: block;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #008F95;
+    border: 0;
+    color: #ffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    margin-top: 10px;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+    margin-bottom: 20px;
+} 
+
+.botao:hover{
+    color: #EB6E80;
+}
+
+.comunicacao {
+    margin-bottom: 10px;
+}

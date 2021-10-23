@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleFormEmpresa.css" media="screen">
+    <title>Cadastro Empresa</title>
+
+</head>
+
+<body>
+
+    <div class="cabeca">
+        <h1 id="titulo"><b>Anuncie a sua vaga AQUI!</b></h1>
+        <p id="subtitulo">Faça parte dessa mudança!</p>
+    </div>
+
+    <form>
+        <div class="campo">
+            <label for="cargo">Cargo da Vaga</label>
+            <input type="text" name="nome" id="sobrenome" class="inputUser2" required>
+        </div>
+
+        <div class="campo">
+            <label for="empresa">Nome da Empresa</label>
+            <input type="text" name="empresa" id="empresa" class="inputUser2" required>
+        </div>
+
+        <div class="campo1">
+            <label for="email">E-mail Corporativo</label>
+            <input type="email" name="email" id="email" class="inputUser" required>
+        </div>
+        
+        <div class="campo">
+            <label>CEP</label>
+            <input type="text" name="cep" id="cep" class="inputUser" required>  
+        </div>
+        <div class="campo">
+            <label>CNPJ da Empresa</label>
+            <input type="text" name="cnpj" id="cnpj" class="inputUser" required>  
+        </div>
+        <div class="campo">
+            <label>Nome Completo</label>
+            <input type="text" name="nome" id="sobrenome">  
+        </div>
+        <div class="campo">
+            <label>Telefone</label>
+            <input type="tel" name="telefone" id="telefone" class="inputUser" required>  
+        </div>
+
+        <div class="campo">
+            <label>Celular</label>
+            <input type="tel" name="telefone" id="telefone" class="inputUser" required>  
+        </div>
+
+        <div class="campo">
+            <br>
+            <label for="">Fale um pouco sobre a vaga:</label>
+            <textarea name="vaga" id="vaga" cols="30" rows="6" style="width: 26em"></textarea>
+        </div>
+
+        <div>
+            <input type="radio" name="termos" id="termos" required> 
+            <label>Li e aceito as Condições Legais e a Política de Privacidade do WorkDelas</label> 
+        </div>
+        <div>
+            <input type="radio" name="comunicacao" id="comunicacao" class="comunicacao"> 
+            <label>Autorizo o WorkDelas a enviar comunicações comerciais sobre produtos, serviços e eventos dos seus parceiros e colaboradores.</label> 
+        </div>
+
+        <div>
+            <img itemprop="image" class="logo" src="logoo.png" align="center" alt="Logo">
+        </div>
+        
+        <button class="botao" type="submit">ANUNCIAR VAGA</button>
+
+    </form>
+</body>
+</html>
